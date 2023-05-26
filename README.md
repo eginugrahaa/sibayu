@@ -20,6 +20,7 @@ Sistem Informasi ini dibangun menggunakan teknologi :
 Demo Admin:
 - u: admin
 - p: admin
+
 Demo Petugas:
 - u: petugas
 - p: petugas
