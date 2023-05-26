@@ -17,8 +17,15 @@ Sistem Informasi ini dibangun menggunakan teknologi :
 - CodeIgniter 3
 - MariaDB
 
+Demo Autentikasi :
+u: admin
+p: admin
+
+u: petugas
+p: petugas
+
 ## QC
-Saya berterimakasih kepada BPPMPV KPTK 2023 dan PT UBIG sebagai tempat magang dan praktek membangun sistem informasi ini serta membantu dalam proses trial dan error sesuai standar industri.
+Saya berterimakasih kepada BPPMPV KPTK 2023 dan PT UBIG sebagai tempat magang dan praktek membangun sistem informasi ini serta membantu dalam proses trial dan error sesuai standar industri. Demo Hasil Magang : https://www.youtube.com/watch?v=Sf4_t5pXvtw
 
 ## Hak Cipta
 Sistem Informasi bersifat open source sehingga bisa dikembangkan lebih baik lagi sesuai dengan kebutuhan sekolah, harapan saya ini dapat membantu dan bermanfaat bagi staff IT, guru IT bahkan developer lainnya.
