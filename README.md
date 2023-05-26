@@ -17,12 +17,12 @@ Sistem Informasi ini dibangun menggunakan teknologi :
 - CodeIgniter 3
 - MariaDB
 
-Demo Autentikasi :
-u: admin
-p: admin
-
-u: petugas
-p: petugas
+Demo Admin:
+- u: admin
+- p: admin
+Demo Petugas:
+- u: petugas
+- p: petugas
 
 ## QC
 Saya berterimakasih kepada BPPMPV KPTK 2023 dan PT UBIG sebagai tempat magang dan praktek membangun sistem informasi ini serta membantu dalam proses trial dan error sesuai standar industri. Demo Hasil Magang : https://www.youtube.com/watch?v=Sf4_t5pXvtw
