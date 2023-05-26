@@ -1,0 +1,245 @@
+@font-face {
+	font-family: "Norton";
+	src: url("../fonts/Norton.ttf");
+}
+
+@font-face {
+	font-family: "TheHeartOfEverything";
+	src: url("../fonts/TheHeartOfEverything.ttf");
+}
+
+* {
+	padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+	background-color: #dcdde1;
+    height: 100%;
+}
+
+.bg-gradient{
+	background-color: #1F1C26;
+	background-image: -webkit-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: -o-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: linear-gradient(to bottom right, #1F1C26 0%, #2C273C 100%);
+	font-weight: bold;
+}
+
+.clear{
+	clear: both;
+}
+
+.no-radius{
+	border-radius: 0px;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.no-border{
+	border: 0px;
+}
+
+.garis-25{
+	border-bottom: 3px solid #BBB;
+	width: 70px;
+	margin: 10px 0;
+}
+
+.width-100{
+	width: 100%;
+}
+
+/* Main Application */
+.ujian-container{
+	margin-top: 25px;
+}
+
+.ujian-card{
+	margin-bottom: 25px;
+}
+
+.ujian-table tr td{
+	padding: 5px 0;
+	padding-right: 10px;
+}
+
+.ujian-list{
+	margin-left: 20px;
+}
+
+.ujian-table{
+	padding: 0px;
+}
+
+.ujian-nomor{
+	position: absolute;
+	top: 17px;
+}
+
+.ujian-gambar{
+	padding-bottom: 20px;
+}
+
+.ujian-gambar img{
+	border: 1px solid #DDD;
+}
+
+.ujian-suara{
+	margin: 15px 0;
+}
+
+.ujian-soal h6{
+	font-weight: bold;
+	font-size:12px;
+}
+
+.ujian-uraian{
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	padding: 15px 20px;
+}
+
+.ujian-jawaban{
+	margin-top: 20px;
+}
+
+.ujian-jawaban h6{
+	margin: 10px 0;
+	font-weight: bold;
+	font-size:12px;
+}
+
+.ujian-pilihan{
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.ujian-daftar-soal{
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+
+.ujian-list-daftar-soal{
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.ujian-navigasi{
+	margin-top: 20px;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+
+.font-14{
+	font-size: 14px;
+}
+.font-16{
+	font-size: 16px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-20{
+	font-size: 20px;
+}
+.font-22{
+	font-size: 22px;
+}
+
+/* #List Group# */
+.list-group-pilihan > .list-group-item{
+	border-radius: 3px;
+	margin-top: 15px;
+}
+
+.list-group-item {
+	user-select: none;
+}
+
+.list-group input[type="radio"] {
+	display: none;
+}
+
+.list-group input[type="radio"] + .list-group-item {
+	cursor: pointer;
+}
+
+.list-group input[type="radio"] + .list-group-item:before {
+	color: transparent;
+	font-weight: bold; 
+}
+
+.list-group input[type="radio"]:checked + .list-group-item {
+	background-color: #0275D8;
+	color: #FFF;
+}
+
+.list-group input[type="radio"]:checked + .list-group-item:before {
+	color: inherit;
+}
+
+.list-group-item > span{
+	vertical-align: top;
+}
+
+.list-group-item table tr td > img{
+	border-radius: 3px;
+}
+
+.list-group-item table tr td{
+	padding: 5px;
+}
+
+.list-group-item table tr td:first-child{
+	font-weight: bold;
+}
+
+.login-copy{
+	color: #AAA;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: "TheHeartOfEverything";
+}
+
+.login-copy small{
+	font-size: 10px;
+}
+
+.blink{
+	display: none;
+	opacity: 0;
+	-webkit-animation: fadein 5s infinite; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s infinite; /* Firefox < 16 */
+        -ms-animation: fadein 5s infinite; /* Internet Explorer */
+         -o-animation: fadein 5s infinite; /* Opera < 12.1 */
+            animation: fadein 5s infinite;
+}
+ 
+@keyframes fadein {
+    0%{ opacity: 0; }
+    30%{ opacity: 1; }
+   	90%{ opacity: 1; }
+    100%{ opacity: 0; }
+}

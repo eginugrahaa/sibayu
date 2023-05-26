@@ -1,0 +1,80 @@
+.m-content--skin-light2 .m-body{
+	background-color: #b2bec3;
+}
+
+.m-brand__logo-wrapper img{
+	width: 120px;
+	margin-left: 10px;
+	opacity: 60%;
+}
+
+.m-portlet .m-portlet__head{
+	border-bottom: 1px solid #b2bec3;
+}
+.m-form.m-form--group-seperator-dashed .m-form__group{
+	border-bottom: 1px dashed #b2bec3;
+}
+.m-form .m-form__actions {
+	border-top: 1px solid #b2bec3;	
+}
+
+
+.m-input{
+	border: 1px solid #a4b0be;
+}
+
+.btn.btn-default, .btn.btn-secondary {
+	border: 1px solid #a4b0be;
+	/* background-color: #dfe4ea; */
+}
+
+
+.table-bordered > tbody {
+	border: 1px solid #dfe4ea;	
+}
+
+.table-bordered > tbody > tr:nth-child(even) > td {
+	background-color: #dfe4ea;
+	border-right: 1px solid #dfe4ea;
+}
+
+.m-input-bigtext{
+	font-size: 20px;
+	padding: 25px 20px;
+}
+
+ 
+.table-bordered > tbody > tr:hover > td {
+	background-color: #c7cbed;
+	border-color:#c7cbed;
+}
+
+.table-pembayaran > tbody > tr > td{
+	font-size: 14px;
+	padding: 20px 10px;
+	vertical-align : middle;
+}
+
+.table-valign > tbody > tr > td{
+	padding: 10px;
+	vertical-align : middle;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+table { page-break-inside: auto; }
+tr { page-break-inside: avoid; page-break-after: auto; }
+
+.daterangepicker.ltr{
+	border: 1px solid #5867dd;
+}
+
+.daterangepicker .daterangepicker_input .input-mini {
+    border: 1px solid #5867dd;
+}

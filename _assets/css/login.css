@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "Norton";
+	src: url("../fonts/Norton.ttf");
+}
+
+@font-face {
+	font-family: "TheHeartOfEverything";
+	src: url("../fonts/TheHeartOfEverything.ttf");
+}
+
+* {
+	padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+	background-color: #232539;
+	/*
+	background-image: -webkit-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: -o-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: linear-gradient(to bottom right, #1F1C26 0%, #2C273C 100%);
+	*/
+}
+
+.bg-gradient{
+	background-color: #232539;
+	/*
+	background-image: -webkit-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: -o-linear-gradient(top left, #1F1C26 0%, #2C273C 100%);
+	background-image: linear-gradient(to bottom right, #1F1C26 0%, #2C273C 100%);
+	*/
+	font-weight: bold;
+}
+
+.clear{
+	clear: both;
+}
+
+.no-radius{
+	border-radius: 0px;
+}
+
+.keterangan{
+	padding: 5px 10px;
+}
+
+/* Main Application */
+.login-logo{
+	margin: 20px auto;
+	width: 140px;
+}
+
+.login-input{
+	background-color: #1F1C26;
+	border: 2px solid #2C273C;
+	padding: 15px 20px;
+	width: 100%;
+	margin-bottom: 15px;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+.login-btn{
+	margin: 0 2px;
+	padding: 10px 20px;
+	font-size: 14px;
+	width: 100%;
+	background-color: #CE2A5E;
+	color: #DDD;
+}
+
+.login-title {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: "Norton";
+	color: #BBB;
+}
+
+.login-copy{
+	color: #555;
+	margin-top: 25px;
+	font-size: 20px;
+	font-family: "TheHeartOfEverything";
+}
+
+.login-copy small{
+	font-size: 10px;
+}
+
+.login-ket{
+	color: #BBB;
+	font-size: 12px;
+}
+
+.login-alert{
+	cursor: pointer;
+}
